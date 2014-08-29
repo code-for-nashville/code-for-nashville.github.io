@@ -1,0 +1,12 @@
+# Site settings
+title: Code for Nashville
+email: webmaster@codefornashville.org
+description: > # this means to ignore newlines until "baseurl:"
+  Nashville's new Code for America Brigade, we meet monthly at the Sevier Park Community Center.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.codefornashville.org" # the base hostname & protocol for your site
+twitter_username: code4nashville
+github_username:  code-for-nashville
+
+# Build settings
+markdown: kramdown
