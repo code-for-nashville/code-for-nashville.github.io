@@ -10,3 +10,4 @@ github_username:  code-for-nashville
 
 # Build settings
 markdown: kramdown
+exclude: [README.md]
