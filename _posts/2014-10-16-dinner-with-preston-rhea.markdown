@@ -4,6 +4,7 @@ title:  "Dinner with Preston Rhea"
 date:   2014-10-16 21:59:46
 categories: codeforamerica brigade
 ---
+By James Nix
 
 As one of the first actions as a group, many of those who would make up the fledgling leadership of the Code for Nashville brigade gathered in mid-September over pizza in Midtown to meet with Preston Rhea, brigade program coordinator for Code for America.
 
