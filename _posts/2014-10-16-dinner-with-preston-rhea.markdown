@@ -13,8 +13,12 @@ CfN envisioned teaming up with local charity organizations, schools, foundations
 
 At this meeting, members also laid out the structure of its monthly “hack nights,” CfN’s main events of action. It’s at these hack nights, on the third Wednesday of every month at the Sevier Park Community Center, where the brigade discusses ongoing and future projects before breaking out into groups and digging into code and data.
 
-An ongoing challenge for CfN will be to identify particular datasets, especially those available through the [Nashville Open Data Portal](https://data.nashville.gov/ "Visit Nashville Open Data Portal"), that members can work with to get the most out of for users. CfN member Yiaway Yeh, who also works in the mayor’s Nashville Office of Innovation, told other members at that September dinner that other available datasets have been identified. Now, brigade members will try to provide input to the city on what dataset releases might take priority over others.
+An ongoing challenge for CfN will be to identify particular datasets, especially those available through the [Nashville Open Data Portal], that members can work with to get the most out of for users. CfN member Yiaway Yeh, who also works in the mayor’s Nashville Office of Innovation, told other members at that September dinner that other available datasets have been identified. Now, brigade members will try to provide input to the city on what dataset releases might take priority over others.
 
 If you have ideas to share about data available through the Nashville Open Data Portal or how Nashvillians might be able to use such data, please contact us.
 
 And stay tuned.
+
+
+
+[Nashville Open Data Portal]: https://data.nashville.gov/ "Visit Nashville Open Data Portal"
