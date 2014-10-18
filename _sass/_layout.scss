@@ -1,10 +1,26 @@
-/**  
- *Page Wrappper 
+/**
+ *Page Wrappper
  */
  body {
     padding: 3em;
  }
- 
+
+ .contact{
+   border: 3px double;
+   padding: 20px;
+ }
+
+ .contact-header-cell{
+   padding: 10px 25px 10px 25px;
+   font-weight: bold;
+   font-size: large;
+ }
+
+ .contact-cell{
+   padding: 10px 25px 10px 25px;
+ }
+
+
 /**
  * Site header
  */
