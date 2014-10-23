@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Contact Us
+title: Contact
 permalink: /contact/
 ---
 
-You can contact us on [twitter] or [facebook] or by emailing [webmaster@codefornashville.org][email].
+You can contact us on [twitter] or [facebook], by emailing [webmaster@codefornashville.org][email], or by filling out the form below.
+
+{% include contact_form.html %}
 
 [twitter]:      https://twitter.com/code4nashville
 [facebook]:     https://www.facebook.com/groups/codefornashville/
