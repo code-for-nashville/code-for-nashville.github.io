@@ -211,8 +211,14 @@
     font-size: 24px;
 }
 
+/** Home Content **/
+.home-content {
+  padding:0 $home-padding;
+}
 
-
+.home-blogs, .home-contact, .home-about {
+  padding: $home-padding;
+}
 /**
  * Posts
  */
