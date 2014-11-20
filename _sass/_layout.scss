@@ -263,3 +263,18 @@
         }
     }
 }
+
+
+
+/**
+ * Forms
+ */
+form {
+  input, textarea {
+    border-radius: .5em;
+    margin-bottom: .5em;
+  }
+  textarea {
+    width: 98%;
+  }
+}
