@@ -8,6 +8,6 @@ You can contact us by emailing [webmaster@codefornashville.org][email], or by fi
 
 {% include contact_form.html %}
 
-{% include contact.html %}
+{% include contact_icons.html %}
 
 [email]:        mailto:webmaster@codefornashville.org
