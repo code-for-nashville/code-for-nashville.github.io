@@ -11,5 +11,5 @@ permalink: /team/
 * Developer Evangelist - John Wark
 * Developer Evangelist - Rebecca Cronin-Dixon
 * Data Wrangler - JoAnn Brooks
-* Data Wranger and Scribe - James F. Nix
+* Data Wranger and Scribe - James Nix
 * Storyteller - Erin Page
