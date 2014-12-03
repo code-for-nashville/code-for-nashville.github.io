@@ -4,10 +4,10 @@ title: Contact
 permalink: /contact/
 ---
 
-You can contact us on [twitter] or [facebook], by emailing [webmaster@codefornashville.org][email], or by filling out the form below.
+You can contact us by emailing [webmaster@codefornashville.org][email], or by filling out the form below.
 
 {% include contact_form.html %}
 
-[twitter]:      https://twitter.com/code4nashville
-[facebook]:     https://www.facebook.com/groups/codefornashville/
+{% include contact_icons.html %}
+
 [email]:        mailto:webmaster@codefornashville.org
