@@ -1,7 +1,7 @@
 --
 layout: post
 title:  "Steps To Become a Code For Nashville Member"
-date:   2-14-12-07
+date:   14-12-07
 categories: codeforamerica brigade
 ---
 For those looking to become an active member of Code For Nashville there are a number of places where we discuss current and future projects, goals of the organization and everything in between
