@@ -24,10 +24,3 @@ NashViva is a website application that will pull data from Metro Nashville's ope
 
 * [Website](http://nashviva.codefornashville.org/)
 * [Source Code](https://github.com/code-for-nashville/nashviva)
-
-# INCLUCIVICS
-
-INCLUCIVICS is a data visualization app designed to bring transparency into the employee diversity at Nashville Metro.
-
-* [Website](http://www.inclucivics.com) (Not yet available)
-* [Source Code](https://github.com/code-for-nashville/hrc-employment-diversity-report)
