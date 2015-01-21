@@ -9,6 +9,8 @@ CodeAcross 2015
 
 February 20th - 22nd
 
+Where: The Sonny West Conference Center at 700 2nd Ave South, Nashville, TN 37210.
+
 Code for Nashville will be participating in CodeAcross 2015 with other Code for
 America brigades. More information will be announced including a formal schedule
 and location. But if you're interested and want to attend, RSVP today.
