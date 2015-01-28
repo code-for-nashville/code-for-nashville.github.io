@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "CodeAcross Series: Principle 4"
+date:   2015-01-28 17:05:00
+categories: codeforamerica brigade, CodeAcross 
+---
+By Rebecca Cronin-Dixon
+
+###Code Across 2015 Principle 3: Make Data Easy To Find And Use
 The first question that popped into my mind when I read this principle was 'What's the point of making data accessible if it's not easy to find or use?'. So many great things can be achieved through using data the right way but first we must make sure it is available and understandable. Sure, this may sound simple enough but what may be intuitive to one person can seem like a riddle to another. Those who know the internet and its workings inside and out must remember that to make data useful it must be in an easy-to-read format and easily accessible. 
 
 As someone who only six months ago knew barely anything about the world that is programming, I know what it is like scouring the internet for information only to turn up datasets that could possibly of been relevant if only I knew how to extract the data or even where to look in the first place. Our entire purpose at Code For Nashville is to stop these headaches for people by providing access to metro government datasets. Recently, Code For Nashville released (Nashville Flu Shots)[http://www.nashvilleflushots.org/] that displays the locations Nashville residents can get a flu shot. By placing the locations on a map and creating a website this dataset is now available for the community to use. Providing an easy gateway to data can help with government transparency and community cooperation. 
