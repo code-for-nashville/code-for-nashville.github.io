@@ -6,7 +6,7 @@ categories: codeforamerica brigade, CodeAcross
 ---
 By Erin Page
 
-###Code Across 2015 Pinciple 3: Focus On What Government Can Do
+###Code Across 2015 Principle 3: Focus On What Government Can Do
 
 The next principle on our tour is "Focus on what government can do". This has been a particularly interesting principle to deal with since joining Nashville's Code for America Brigade. We all are extremely motivated and ready to get to work. But what does that look like? How do we prioritize the work? What are our relationships with the government as a newly minted organization?
 
