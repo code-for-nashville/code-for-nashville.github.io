@@ -8,6 +8,10 @@ url: "http://www.codefornashville.org" # the base hostname & protocol for your s
 twitter_username: code4nashville
 github_username:  code-for-nashville
 
+#creates collectable for cfn projects
+collections:
+  - projects
+    ouput: true
 # Build settings
 markdown: kramdown
 exclude:
