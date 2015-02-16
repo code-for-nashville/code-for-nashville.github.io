@@ -7,3 +7,4 @@ lead: position open
 help: "yes - need project lead and team to continue project"
 
 ---
+GIS-based mobile app guide to trails and amenities for Nashville Parks & Greenfeatures through Mayor’s Office. 
