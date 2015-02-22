@@ -1,11 +1,18 @@
 .site-header {
+  background: #250067;
+
   .header-img-wrapper {
     height: 131px;
   }
 
   #cfn-header-logo-container {
     background: white;
-    height: 100%;
+    min-height: 131px;
+
+    img {
+      max-width: 100%; 
+      width: auto;
+    }
   }
 
   .cfn-header-logo {
@@ -17,7 +24,7 @@
 
   #header-img {
     background-image: url("../img/skyline.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: auto;
     height:100%;
@@ -91,6 +98,12 @@
       padding: 0;
     }
 
+    .cfn-header-logo {
+      margin-left: 0;
+      padding-left: 1%;
+      margin-top: 30px;
+    }
+
     nav {
       display: none;
       width: 100%;
@@ -99,11 +112,20 @@
         margin-left: 0;
         margin-top: 4px;
         width: 100%;
+        padding-bottom: 10px;
 
         li{
           list-style-type: none;
           display: block;
-          background: yellow;
+        }
+
+        li:first-child {
+          border-top: 2px solid white;
+          padding-top: 5px;
+        }
+
+        li:nth-child(even) {
+        display: none;
         }
       }
 

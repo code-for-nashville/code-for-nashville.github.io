@@ -1,6 +1,7 @@
 //Overall Site Layout
 body {
   background: #1B1B1B;
+  font-family: $body-font;
 }
 
 .site-content {
@@ -14,8 +15,12 @@ body {
 }
 
 .site-footer {
-  background: white;
+  background: #250067;
   padding-left: 20px;
+  
+  p {
+    margin-bottom: 0;
+  }
 }
 
 //header props
