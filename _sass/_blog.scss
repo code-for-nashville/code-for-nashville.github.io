@@ -15,24 +15,5 @@
       }
     }
   }
-
-  form {
-    margin-bottom: 10px;
-  }
-
-  input[type="submit"] {
-    background: #AD0C10;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-  }
 }
 
-@media screen and (min-width: 64.063em) {
-  .home-contact {
-    .large-12 {
-      width: 33.33333%;
-    }
-  }
-}
