@@ -1,6 +1,6 @@
 //Overall Site Layout
 body {
-  background: #7D7D7D;
+  background: #ccc;
   font-family: $body-font;
   color: #464646;
 }
@@ -11,13 +11,10 @@ body {
 }
 
 .page-content {
-  padding: 20px;
+  padding: 30px;
   background: white;
 }
 
-.post-content {
-  padding-left: 10px;
-}
 
 .site-footer {
   background: #AD0C10;
