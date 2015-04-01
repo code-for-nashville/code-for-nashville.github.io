@@ -19,7 +19,7 @@ and location. But if you're interested and want to attend, RSVP today.
 
 [Register on Meetup.com](http://www.meetup.com/code-for-nashville/events/219083666/)
 
-[Visit our blog to learn about principles for digital government in the 21st century. (This year's theme)](/blog)
+[Visit our blog to learn about principles for digital government in the 21st century. (This year's theme)](/blog/)
 
 Schedule
 --------

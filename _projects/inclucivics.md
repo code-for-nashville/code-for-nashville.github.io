@@ -1,9 +1,9 @@
 ---
 title: The Nashville Transparenct Project - IncluCivics
-website: 
+website: https://github.com/code-for-nashville/hrc-employment-diversity-report
 github: https://github.com/code-for-nashville/hrc-employment-diversity-report
 status: active
-lead: John Staples 
+lead: John Staples
 help: "yes"
 
 ---
