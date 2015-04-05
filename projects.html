@@ -3,16 +3,17 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-
-<ul class="project-list">
-  {% for project in site.projects %}
-  <li>
-  <h3><a href="{{project.website}}">{{project.title}} ({{project.status}})</a></h3>
-  <p><strong>Project Lead: </strong>{{project.lead}}</p>
-  <p><strong>Help Needed: </strong>{{project.help}}</p>
-  <p>{{ project.content }}</p>
-  <p><a href="{{project.github}}">Source Code</a>
-  </li>
-  {% endfor %}
-</ul>
+<div class="project-list">
+  <ul>
+    {% for project in site.projects %}
+    <li>
+    <h3><a href="{{project.website}}">{{project.title}} ({{project.status}})</a></h3>
+    <p><strong>Project Lead: </strong>{{project.lead}}</p>
+    <p><strong>Help Needed: </strong>{{project.help}}</p>
+    <p>{{ project.content }}</p>
+    <p><a id="source-code" href="{{project.github}}">Source Code</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 

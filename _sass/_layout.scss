@@ -1,224 +1,125 @@
-/**
- *Page Wrappper
- */
- body {
-    padding: 3em;
- }
-
- .contact div:not(.header) {
-  padding-bottom: 8px;
- }
-
-
-/**
- * Site header
- */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
+//Overall Site Layout
+body {
+  background: #ccc;
+  font-family: $body-font;
+  color: #464646;
 }
 
-.site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+.row {
+  max-width: $site-width;
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
+.site-content {
+  margin: 0 auto;
+  max-width: $site-width;
 }
 
-
-
-/**
- * Site footer
- */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-
-/**
- * Page content
- */
 .page-content {
-    padding: $spacing-unit 0;
-}
-
-.page-heading {
-    font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-/** Home Content **/
-.home-content {
-  padding:0 $home-padding;
-}
-
-.home-blogs, .home-contact, .home-about {
-  padding: $home-padding;
-}
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
+  padding: 30px;
+  background: white;
+  min-height: 400px;
 }
 
 
-
-/**
- * Forms
- */
-form {
-  input, textarea {
-    border-radius: .5em;
-    margin-bottom: .5em;
-  }
-  textarea {
-    width: 98%;
+.site-footer {
+  background: #AD0C10;
+  padding-left: 20px;
+  
+  p {
+    margin-bottom: 0;
   }
 }
 
-@media only screen and (max-width: 767px) {
+//lists
+ul {
+  padding-left: 2%;
+}
+
+//text props
+
+p {
+  margin-left: 2%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  color: #363636;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.05em;
+}
+
+h2{
+  font-size: 2.25em;
+  line-height: 1.25em;
+}
+
+h3{
+  font-size: 1.75em;
+  line-height: 1.25em;
+}
+
+h4{
+  font-size: 1.125em;
+  line-height: 1.222222222em;
+}
+
+@media (max-width: 800px) {
+  h1{
+    font-size: 2.5em;
+    line-height: 1.125em;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  h3{
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+
+  h4{
+    font-size: 1.125em;
+    line-height: 1.222222222em;
+  }
+}
+
+@media (max-width: 500px) {
   body {
-    padding: 0;
+    line-height: 1.25em;
   }
+
+  h1{
+    font-size: 2em;
+    line-height: 1.25em;
+  }
+
+  h2{
+    font-size: 1.625em;
+    line-height: 1.15384615em;
+  }
+
+  h3{
+    font-size: 1.375em;
+    line-height: 1.1363634em;
+  }
+
+  h4{
+    font-size: 1.125em;
+    line-height: 1.111111em;
+  }
+}
+
+//clearfix solution
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
 }

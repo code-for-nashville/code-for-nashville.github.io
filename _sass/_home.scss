@@ -1,0 +1,33 @@
+.home-contact {
+  background: rgba(117,136,149,0.2);
+  padding: 2% 10px;
+
+ .contact {
+  padding: 2px 10px;
+ }
+
+ .contact-box {
+  margin-bottom: 20px;
+ }
+}
+
+@media #{$large-mobile} {
+
+  .home-contact {
+    .header h3 {
+      display: none;
+    }
+
+    .contact {      
+      display: inline;
+
+      img {
+        padding-bottom: 5px;
+      }
+
+      span {
+        display: none;
+      }
+    }
+  }
+}

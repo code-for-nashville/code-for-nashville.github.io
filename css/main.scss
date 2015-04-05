@@ -3,50 +3,30 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-$home-padding:     20px;
-
-$text-color:       #111;
-$background-color: rgba(220,220,220, 0.2);
-$brand-color:      #2a7ae2;
-$site-content-color: #fff;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
+//Global Vars
+$site-width: 1400px;
+$site-bg-color: #2F2F2F;
+$header-font: 'Montserrat', sans-serif;
+$body-font: 'Arimo', sans-serif;
+$medium: "(max-width: 900px)";
+$large-mobile: "(max-width: 600px)";
 
 // Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
+// @include media-query($pa) {
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
+// @mixin media-query($device) {
+//     @media screen and (max-width: $device) {
+//         @content;
+//     }
+// }
 
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "bootstrap",
-        "layout",
-        "syntax-highlighting"
-;
+@import "home";
+@import "header";
+@import "layout";
+@import "footer";
+@import "blog";
+@import "projects";
+@import "contact";

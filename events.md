@@ -4,8 +4,14 @@ title: Events
 permalink: /events/
 ---
 
-CodeAcross 2015
-===============
+##Hack Nights 
+3rd Wednesday of Each Month
+
+Where: Sevier Park Community Center
+
+Come join us every month for our hack nights where we discuss new and existing projects and work in teams on civic projects to benefit the community. We are always in need of developers, designers and those interested in their community. 
+
+##CodeAcross 2015
 
 February 20th - 22nd
 
