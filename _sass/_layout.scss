@@ -5,6 +5,10 @@ body {
   color: #464646;
 }
 
+.row {
+  max-width: $site-width;
+}
+
 .site-content {
   margin: 0 auto;
   max-width: $site-width;
@@ -13,6 +17,7 @@ body {
 .page-content {
   padding: 30px;
   background: white;
+  min-height: 400px;
 }
 
 
