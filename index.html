@@ -1,17 +1,16 @@
 ---
 layout: default
 ---
-<div class="row home-content">
-  <div class="col-md-12 home-about">
-    {% include about.html %}
-  </div>
-</div><!-- .row -->
-
-<div class="row"-->
-  <div class="col-md-6 home-contact">
+<div class="home-content">
+  <div class="large-4 columns">
     {% include contact_icons.html %}
-  </div> <!-- .col 6 -->
-  <div class="col-md-6 home-blogs">
-    {% include recent_blogs.html %}
-  </div> <!-- col 6 -->
-</div> <!-- .row -->
+  </div>
+  <div class="about large-8 columns">
+    <div>
+      {% include about.html %} 
+    </div>
+    <div>
+      {% include recent_blogs.html %} 
+    </div>
+  </div>
+</div> 

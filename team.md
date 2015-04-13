@@ -4,15 +4,18 @@ title: Team
 permalink: /team/
 ---
 
-* Community Organizer - John Chapin
-* Community Organizer - Jon Staples
-* Delivery Lead & Developer Evangelist - Kevin Barnes
-* Delivery Lead & Developer Evangelist - Brian Pitts
-* Developer Evangelist - John Wark
-* Developer Evangelist - Rebecca Cronin-Dixon
-* Data Wrangler - JoAnn Brooks
-* Data Wrangler and Scribe - James Nix
-* Storyteller - Erin Page
+* Brigade Captain Emeritus - John Chapin 
+* Brigade Captain/Community Organizer - Jon Staples
+* Brigade Captain/Webmaster - Rebecca Cronin-Dixon
+* Delivery Lead - Jurnell Cockhren
+* Story Teller - Erin Page
+* Story Teller - Katye Russell
+* Operative - Alexandra Phillips
+* New Member Liaison - Sonda Sengupta
+* Community Liaison - Joann Brooks
+* Developer Evangelist - Colby Dehart
+* Developer Evangelist - Max Shenfield
+* Developer Evangelist - James Nix
 
 Municipal Partner
 -----------------
@@ -25,7 +28,8 @@ Innovation.
 Community Partner
 -----------------
 
-The Nashville Software School is Code for Nashville's community partner
-organization, assisting with our legal organizational and operational concerns.
+Code For Nashville's community partner is John Wark of Nashville Software School.
+
+The Nashville Software School assists with legal, organizational and operational concerns.
 
 [The Nashville Software School](http://nashvillesoftwareschool.com)

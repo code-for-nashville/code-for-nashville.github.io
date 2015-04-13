@@ -7,11 +7,12 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-        {{ content }}
-      </div> <!-- .wrapper --> 
-
-    {% include footer.html %}
+    <div class="page-content cf row">
+      {{ content }}
+    </div> <!-- .wrapper --> 
+    <div class="row site-footer">
+      {% include footer.html %}
+    </div>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -22,6 +23,7 @@
       ga('send', 'pageview');
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="{{ "/js/bootstrap.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/css/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script> 
+    <script src="{{ "/js/menu.js" | prepend: site.baseurl }}"></script> 
   </body>
 </html>
