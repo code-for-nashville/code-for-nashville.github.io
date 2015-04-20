@@ -1,11 +1,9 @@
 ---
-layout: page
-title: Tutorials
-permalink: /tutorials/
+layout: tut
+title: Vagrant For Developers
+author: Jon Staples
 ---
 
-#Never resolve a dependency chain again.  Vagrant for Developers (A Tutorial)
-###By: Jon Staples
 ##Motivation
 
 At the company where I work it is common to have interns with technology backgrounds come in to help with programming projects.

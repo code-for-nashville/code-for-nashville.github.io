@@ -1,0 +1,15 @@
+---
+layout: page
+title: Tutorials 
+permalink: /tutorials/
+---
+
+<div class="tutorials">
+  <ul class="tut-list">
+    {% for tut in site.tutorials %}
+    <li>
+      <h3><a href="{{ tut.url }}">{{ tut.title }}</a></h3>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
