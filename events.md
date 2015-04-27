@@ -3,6 +3,13 @@ layout: page
 title: Events
 permalink: /events/
 ---
+##HackTN - Join Our Team
+May 1st-3rd
+
+Where: 1211 4th Avenue South
+
+Code for Nashville is looking for people to join our team for this year's Hack Tennessee. We are planning on using Code For America's API to provide a visualization of CFA brigades and their contributions, projects and github issues. Check out CFA's amazing API [here](http://codeforamerica.org/api/). To register for Hack Tennessee visit their [site](http://www.hacktennessee.com/). We are looking for front-end and back-end developers, content creators, graphic designers and data wranglers. Join us and let's take this hack weekend by storm!
+
 ##National Day of Civic Hacking
 Jun 6th, 8am-8pm
 
