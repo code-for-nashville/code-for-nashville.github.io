@@ -1,21 +1,8 @@
 ---
-layout: page
+layout: team
 title: Team
 permalink: /team/
 ---
-
-* Brigade Captain Emeritus - John Chapin 
-* Brigade Captain/Community Organizer - Jon Staples
-* Brigade Captain/Webmaster - Rebecca Cronin-Dixon
-* Delivery Lead - Jurnell Cockhren
-* Story Teller - Erin Page
-* Story Teller - Katye Russell
-* Operative - Alexandra Phillips
-* New Member Liaison - Sonda Sengupta
-* Community Liaison - Joann Brooks
-* Developer Evangelist - Colby Dehart
-* Developer Evangelist - Max Shenfield
-* Developer Evangelist - James Nix
 
 Municipal Partner
 -----------------
