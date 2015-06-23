@@ -11,6 +11,7 @@ github_username:  code-for-nashville
 #creates collectable for cfn projects
 collections:
   - projects
+  - members
 # Build settings
 markdown: kramdown
 exclude:
