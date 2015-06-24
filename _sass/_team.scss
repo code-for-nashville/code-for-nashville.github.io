@@ -1,0 +1,22 @@
+.team-page {
+    .member-list {
+        li:nth-child(4n+1) {
+            clear: left;
+        }
+
+        li:last-child {
+            float: left;
+        }
+
+        li {
+            list-style-type: none;
+            padding-bottom: 10px;
+
+            img {
+                max-width: 150px;
+                max-width: 50%;
+                border: 3px solid grey;
+            }
+        }
+    }
+}
