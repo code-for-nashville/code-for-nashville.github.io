@@ -38,7 +38,7 @@ Our google group is used primarily for non-project related communication includi
 GitHub is our primary base for communication and for current and past projects. Here you will find a list of our projects including a basic overview of each project, its code and progress. We also have a tracker where problems not specific to a project can be discussed. Please email webmaster@codefornashville.org or ask at a hack night to be added to our GitHub organization.
 
 [Google Drive](https://drive.google.com/open?id=0B0PAHI0CABpRaUNwUUVqZ1BmMGM&authuser=0)
-Google Drive is where we store documents like meeting notes, protocols, etc. We have a publicly viewable folder and a private one. To view the private one or get write access to either  [email us](mailto:webmaster@codefornashville.org) at webmaster@codefornashville.org or ask at a hack night.
+Google Drive is where we store documents like meeting notes, protocols, etc. We have a publicly viewable folder and a private one. To view the private one or get write access to either ask at a hack night or send us a message via our [contact form](/contact).
 
 
-**If you have any questions or queries regarding Code For Nashville or any of our projects please [email us](mailto:webmaster@codefornashville.org) at webmaster@codefornashville.org.**
+**If you have any questions or queries regarding Code For Nashville or any of our projects please [contact us](/contact).**
