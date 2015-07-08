@@ -33,22 +33,15 @@
 }
 
 .ndoch-sponsor-list {
+  height: 135px;
   li {
+    line-height: 135px;
     list-style-type: none;
+    text-align: center;
     img {
       max-width: 100%;
-      max-height: 100px;
+      max-height: 120px;
+      vertical-align: middle;
     }
-    .cts-logo{
-      height: 140px;
-      width: 450px;
-    }
-    .two-logos{
-      margin: 1em 35px;
-    }
-  }
-
-  [class*="column"] + [class*="column"]:last-child {
-      float: left; 
   }
 }
