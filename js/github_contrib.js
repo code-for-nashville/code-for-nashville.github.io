@@ -11,6 +11,7 @@
                $(memberImages[index]).attr('src', avatarImage);
             })
         } else {
+            if($(memberImages[index]).attr('src') == '')
             $(memberImages[index]).attr('src', '/img/identicon.png');
         }
     })
