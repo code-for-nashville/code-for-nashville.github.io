@@ -2,7 +2,6 @@
 layout: post
 title:  "Code for Nashville is one step closer to official brigade status"
 date:   2014-12-14 18:05:00
-categories: codeforamerica brigade
 ---
 By Jon Staples
 

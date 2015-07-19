@@ -2,7 +2,6 @@
 layout: post
 title:  "CodeAcross Series: Principle 2"
 date:   2015-01-18 10:01:00
-categories: codeforamerica brigade, CodeAcross 
 ---
 By Jon Staples
 
@@ -10,7 +9,7 @@ By Jon Staples
 
 
 The second contribution to our Code Across 2015 series revolves around the concept of participation.  As a volunteer organization, Code for Nashville is fully dependent on community participation.  Without its volunteers and civic partners CfN does not exist, and with the busy lives that we all lead, it is essential that we make it as simple to participate as possible.
-  
+
 So how do we do this?
 
 #####1. Get (yourself) organized!
@@ -31,9 +30,3 @@ I've conveniently managed to wrap this post up with a reference to the [first po
 
 
 [first post]: http://www.codefornashville.org/codeforamerica/brigade,/codeacross/2015/01/06/design-for-the-user.html
-
-
-
-
-
-

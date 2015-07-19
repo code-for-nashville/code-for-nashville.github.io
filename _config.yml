@@ -1,22 +1,62 @@
-# Site settings
-title: Code for Nashville
-email: webmaster@codefornashville.org
-description: > # this means to ignore newlines until "baseurl:"
-  Nashville's new Code for America Brigade, we meet monthly at the Sevier Park Community Center.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.codefornashville.org" # the base hostname & protocol for your site
-twitter_username: code4nashville
-github_username:  code-for-nashville
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
 
-#creates collectable for cfn projects
+url: http://www.codefornashville.org
+title: Code For Nashville
+email: webmaster@codefornashville.org
+subTitle: Bringing technology and community together
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+sections:
+    - title: blog
+    - title: contact
+    - title: team
+    - title: projects
+    - title: about
+    - title: home
+
+social:
+  - title: twitter
+    icon: twitter
+    url: https://twitter.com/code4nashville
+    header: true
+  - title: github
+    icon: github
+    url: https://github.com/code-for-nashville
+    header: true
+  - title: meetup
+    icon: calendar-o
+    url: http://www.meetup.com/code-for-nashville
+    header: true
+  - title: slack
+    icon: slack
+    url: /slack-form
+    header: true
+  - title: facebook
+    icon: facebook
+    url: https://www.facebook.com/groups/codefornashville/
+    header: false
+  - title: google group
+    icon: google-plus
+    url: https://groups.google.com/forum/#!forum/code-for-nashville
+    header: false
+  - title: contact form
+    icon: envelope-o
+    url: /contact-form
+    header: false
+
 collections:
   - projects
   - members
-# Build settings
-markdown: kramdown
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-  - vendor

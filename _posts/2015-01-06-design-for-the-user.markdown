@@ -2,7 +2,6 @@
 layout: post
 title:  "CodeAcross Series: Principle 1"
 date:   2015-01-06 17:05:00
-categories: codeforamerica brigade, CodeAcross 
 ---
 By Alexandra Phillips
 

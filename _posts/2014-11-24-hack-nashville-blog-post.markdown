@@ -2,7 +2,6 @@
 layout: post
 title:  "CfN sprouts homegrown app at Hack Nashville"
 date:   2014-11-24 18:05:00
-categories: codeforamerica brigade
 ---
 By James Nix
 
@@ -14,7 +13,7 @@ Following the Hack Nashville project proposals where the app was pitched before 
 
 The fruit of that weekend’s work, tentatively called NashViva, taps data sets from Metro Nashville’s Open Data Portal (data.nashville.gov), scrapes the appropriate JSON data, and creates a map with that information using the Leaflet JavaScript library. Users can toggle different datasets on and off to display the combination of amenities that they desire.
 
-For Hack Nashville, the team limited the scope of amenities to just four — police precincts, fire stations, parks and free wifi. Having created a working proof-of-concept app, team members demoed the app for the Hack Nashville exposition on Sunday, Nov. 9, stirring up interest for both the app and also for CfN itself. 
+For Hack Nashville, the team limited the scope of amenities to just four — police precincts, fire stations, parks and free wifi. Having created a working proof-of-concept app, team members demoed the app for the Hack Nashville exposition on Sunday, Nov. 9, stirring up interest for both the app and also for CfN itself.
 
 Team members are now working on developing it into a full-fledged app as well as the group’s first full project built from concept to completion. Next up will be to determine what all datasets to include as well as the best ways for users to interact with the app and get the most out of it.
 

@@ -2,7 +2,6 @@
 layout: post
 title:  "Notes from September meeting"
 date:   2014-11-05 20:46:15
-categories: codeforamerica brigade
 ---
 By James Nix
 

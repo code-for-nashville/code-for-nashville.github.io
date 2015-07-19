@@ -2,7 +2,6 @@
 layout: post
 title:  "Dinner with Preston Rhea"
 date:   2014-10-16 21:59:46
-categories: codeforamerica brigade
 ---
 By James Nix
 

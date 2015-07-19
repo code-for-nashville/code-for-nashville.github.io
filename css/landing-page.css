@@ -1,0 +1,258 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
+    color: #960014;
+    padding: 20px 0;
+}
+
+.standalone-container {
+    padding-top: 120px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar-header img {
+    padding: 20px 0;
+}
+
+.navbar-default {
+    background: #fff;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/nash_skyline.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+    color: #fff
+}
+
+.intro-message > h3 {
+    color: #fff;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/stardust.png);
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+.banner-social-buttons li {
+    padding-bottom: 20px;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+/* team */
+.member-list li:nth-child(4n+1) {
+    clear: left;
+}
+.member-list li:last-child {
+    float: left;
+}
+.member-list li {
+    list-style-type: none;
+    padding-bottom: 10px
+}
+.member-list img {
+    max-width: 150px;
+    max-width: 50%;
+    border: 3px solid grey;
+}
+
+/* ndoch */
+.ndoch-sponsor-list div.sponsors{
+    text-align: center
+}
+.ndoch-sponsor-list ul{
+    display: inline-block;
+	text-align: center
+}
+.ndoch-sponsor-list li{
+    line-height: 135px;
+    list-style-type: none;
+    text-align: center;
+}
+.ndoch-sponsor-list img{
+    max-width: 100%;
+    max-height: 120px;
+    vertical-align: middle;
+}
+
+/* forms */
+form {
+    background: #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 10px auto
+}
+
+form input[type="submit"] {
+    background: #AD0C10;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px
+}
+
+/* contact */
+#contact  h2 {
+    color: #fff;
+}
+
+/* blog */
+.post-list h3 {
+    padding: 0;
+}
