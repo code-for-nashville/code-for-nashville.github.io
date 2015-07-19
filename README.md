@@ -1,35 +1,30 @@
-# Landing Page Jekyll theme
+## Introduction
 
-Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
+This repository contains the source for the [Code for Nashville website](http://www.codefornashville.org). The site is hosted on [Github Pages](https://pages.github.com). Change merged to the master branch of this repository are automatically deployed to the live site.
 
-## How to use
- - Place a image in `/img/services/`
- - Create posts to display your services. Use the follow as an example:
+## Contributing
 
-```txt
----
-layout: default
-img: ipad.png
-category: Services
-title: The service title
----
-The description of this service
-```
+The website is generated with Jekyll, so to contribute you'll need to have that [installed](http://jekyllrb.com/docs/installation/).
 
-## Demo
-View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
+This is how to set it up:
 
-===
+1. Clone this repo
+1. Run 'bundle install' to install required dependencies. If you don't have bundler, you can install it with 'gem install bundler' or check out [bundler's site](http://bundler.io/) for help. You may also need xcode installed by running 'xcode-select --install' in the command line.
+1. Run locally with `bundle exec jekyll serve`
 
-For more Jekyll details, read [documentation](http://jekyllrb.com/).
-This Jekyll theme used [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme/) as reference.
 
-## License
-The contents of this repository are licensed under the [Apache
-2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+Changes to our website follow the [Github Flow](https://guides.github.com/introduction/flow/index.html). You need [git installed](https://help.github.com/articles/set-up-git) and some experience with Github. If you are not experienced with git, check out [Github's documentation](https://help.github.com) or ask another brigade member for help.
 
-## Version
-1.0.1
+
+The process is
+
+1. Create a branch
+1. Make your changes
+1. Test them locally with `bundle exec jekyll serve`
+1. Commit your changes
+1. Push your changes
+1. Open a pull request
+1. Wait for someone else to review your code
+1. Once it gets a thumbs-up, merge your branch
+1. Check the [site](http://www.codefornashville.org) and see your changes
