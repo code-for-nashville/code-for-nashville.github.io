@@ -1,5 +1,5 @@
 ---
-title: The Nashville Transparenct Project - IncluCivics
+title: The Nashville Transparency Project - IncluCivics
 website: https://github.com/code-for-nashville/hrc-employment-diversity-report
 github: https://github.com/code-for-nashville/hrc-employment-diversity-report
 status: active
