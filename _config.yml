@@ -42,7 +42,7 @@ social:
     header: true
   - title: slack
     icon: slack
-    url: /slack-form
+    url: https://nashville-brigade-slackin.herokuapp.com
     header: true
   - title: facebook
     icon: facebook
