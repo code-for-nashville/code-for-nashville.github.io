@@ -20,7 +20,6 @@ permalink: pretty
 # ----------------------- #
 
 sections:
-    - title: blog
     - title: contact
     - title: team
     - title: projects
