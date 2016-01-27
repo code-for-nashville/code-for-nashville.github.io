@@ -3,7 +3,7 @@ title: Brigade Pulse
 website: http://www.brigadepulse.us/
 github: https://github.com/code-for-nashville/brigade-pulse
 status: active
-lead: Andy Meagher
+lead: Zach McCormick
 help: "yes"
 
 ---
