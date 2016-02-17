@@ -235,7 +235,7 @@ p.copyright {
 }
 
 /* forms */
-form {
+.contact-form {
     background: #ccc;
     padding: 20px;
     border-radius: 20px;
@@ -243,7 +243,7 @@ form {
     margin: 10px auto
 }
 
-form input[type="submit"] {
+.contact-form input[type="submit"] {
     background: #AD0C10;
     color: white;
     border: none;
