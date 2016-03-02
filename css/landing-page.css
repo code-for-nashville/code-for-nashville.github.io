@@ -261,6 +261,25 @@ p.copyright {
     padding: 0;
 }
 
-#emma-form-24e56d172af2455a1f6b41311b6859c4 form {
-    width: 290px!important;
+.mailing-list-link {
+    margin: 10px 0;
+    padding-top: 40px;
+}
+
+.e2ma_signup_form_button {
+    background: #428bca;
+    color: #fff;
+    border: none;
+}
+
+.e2ma_signup_form {
+    margin-left: 20%;
+}
+.e2ma_signup_form_required_footnote {
+    text-align: left;
+}
+
+.e2ma_signup_form_row,
+.e2ma_signup_form_required_footnote {
+    border: none !important;
 }
