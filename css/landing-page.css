@@ -260,3 +260,7 @@ p.copyright {
 .post-list h3 {
     padding: 0;
 }
+
+#emma-form-24e56d172af2455a1f6b41311b6859c4 form {
+    width: 290px!important;
+}
