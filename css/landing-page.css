@@ -275,6 +275,13 @@ p.copyright {
 .e2ma_signup_form {
     margin-left: 20%;
 }
+
+@media(max-width:767px) {
+    .e2ma_signup_form {
+        margin-left: 5px;
+    }
+}
+
 .e2ma_signup_form_required_footnote {
     text-align: left;
 }
