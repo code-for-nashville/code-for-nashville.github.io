@@ -18,13 +18,13 @@
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        {% for page in site.sections %}
                         <ul class="nav navbar-nav navbar-right">
-                        	<li>
-                                <a class="page-scroll" href="{{site.baseurl}}/#{{ page.title}}">{{ page.title | upcase}}</a>
-                            </li>
+                            {% for page in site.sections %}
+                                <li>
+                                    <a class="page-scroll" href="{{site.baseurl}}/#{{ page.title}}">{{ page.title | upcase}}</a>
+                                </li>
+                            {%  endfor %}
                         </ul>
-                        {%  endfor %}
                     </div>
                     <!-- /.navbar-collapse -->
                 </div>

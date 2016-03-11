@@ -20,11 +20,11 @@ permalink: pretty
 # ----------------------- #
 
 sections:
-    - title: contact
-    - title: team
-    - title: projects
-    - title: about
     - title: home
+    - title: about
+    - title: projects
+    - title: team
+    - title: contact
 
 social:
   - title: twitter
