@@ -2,3 +2,4 @@ _site
 .sass-cache/
 bower_components
 NERD_tree_1
+Gemfile.lock
