@@ -1,8 +1,12 @@
-<section class="contact">
-    <h2>Contact</h2>
-    <ul>
-        {% for social in site.social %}
-        <li><a href="{{ social.url }}">{{ social.title }}</a></li>
-        {% endfor %}
-    </ul>
-</section>
+<div class="even">
+    
+    <section class="contact">
+        <h2>Contact</h2>
+        <ul>
+            {% for social in site.social %}
+            <li><a href="{{ social.url }}">{{ social.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+
+</div>
