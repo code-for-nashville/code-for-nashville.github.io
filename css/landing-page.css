@@ -144,7 +144,7 @@ nav a {
 
 /* Projects */
 
-.projects div {
+#projects div {
     background: #fff;
     border: 1px solid #E7E7E7;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
@@ -155,10 +155,10 @@ nav a {
     vertical-align: top;
     width: 280px;
 }
-.projects p {
+#projects p {
     margin: 0;
 }
-.projects p:last-child {
+#projects p:last-child {
     border-top: 1px solid #e7e7e7;
     font-size: 85%;
     margin: 1rem 0 .5rem;
@@ -170,20 +170,20 @@ nav a {
 
 /* Team */
 
-.team li {
+#team li {
     margin-bottom: 2rem;
     padding-right: 20px;
     vertical-align: top;
     width: 49%;
 }
-.team h3 {
+#team h3 {
     margin-bottom: 0;
 }
-.team h3 + p {
+#team h3 + p {
     margin-top: .25rem;
 }
 @media(min-width:640px) {
-    .team li {
+    #team li {
         width: 24%;
     }
 }
