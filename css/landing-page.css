@@ -72,7 +72,7 @@ ul {
     }
 }
 h1 {
-    color: #A61729;
+    color: #074D9E;
     font-size: 1.5rem;
     margin: 0;
 }
@@ -84,7 +84,7 @@ h1 i {
     margin-left: .125rem;
 }
 h1 span {
-    color: #074D9E;
+    color: #A61729;
 }
 nav {
     flex: 1 0 0;
@@ -197,6 +197,24 @@ footer {
 
 .contact li {
     margin-right: 1rem;
+}
+
+/*New Members*/
+
+iframe {
+    border: 2px solid #E7E7E7;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
+    margin-top: 40px;
+}
+
+@media(min-width:640px) {
+    .modules div {
+        display: inline-block;
+        padding-right: 40px;
+        vertical-align: top;
+        width: 49%;
+    }
 }
 
 /* Footer */
