@@ -149,11 +149,16 @@ nav a {
     border: 1px solid #E7E7E7;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
     border-radius: 4px;
-    display: inline-block;
-    margin: 0 25px 25px 0;
+    margin-bottom: 25px;
     padding: 0 20px;
     vertical-align: top;
-    width: 280px;
+}
+@media(min-width: 660px) {
+    #projects div {
+        display: inline-block;
+        margin: 0 25px 25px 0;
+        width: 280px;
+    }
 }
 #projects p {
     margin: 0;
@@ -164,8 +169,8 @@ nav a {
     margin: 1rem 0 .5rem;
     padding-top: .5rem;
 }
-.desc.desc {
-    margin: 1rem 0;
+#projects .help {
+    margin-bottom: 1rem;
 }
 
 /* Team */
@@ -195,8 +200,50 @@ footer {
 
 /* Contact */
 
+.contact-form {
+    max-width: 500px;
+}
 .contact li {
     margin-right: 1rem;
+}
+form {
+    margin-top: 40px;
+    max-width: 500px;
+}
+label {
+    font-weight: 600;
+    display: inline-block;
+    width: 70px;
+}
+.form-control {
+    border: 1px solid #aaa;
+    border-radius: 1px;
+    box-shadow: inset 0 1px 3px 0 rgba(0,0,0,.08);
+    margin-bottom: 20px;
+    min-width: 300px;
+    padding: 10px;
+}
+textarea {
+    width: 500px;
+}
+input[type="submit"] {
+    background: #074D9E;
+    border: 0;
+    border-radius: 1px;
+    color: #fff;
+    padding: 15px 40px;
+}
+.submit-btn {
+    display: block;
+    margin: 0 auto;
+}
+#contact li {
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+.questions {
+    margin: 1rem auto;
+    text-align: center;
 }
 
 /*New Members*/

@@ -7,8 +7,8 @@
             <h3><a href="{{project.website}}">{{project.title}}</a></h3>
             <p><b>Project Status:</b> {{project.status}}</p>
             <p><b>Project Lead:</b> {{project.lead}}</p>
-            <p><b>Help Needed:</b> {{project.help}}</p>
-            <p class="desc">{{ project.content }}</p>
+            <p class="help"><b>Help Needed:</b> {{project.help}}</p>
+            <p>{{ project.content }}</p>
             <p><a href="{{project.github}}">Source Code</a>
         </div>
         {% endfor %}
