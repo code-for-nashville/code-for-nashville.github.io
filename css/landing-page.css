@@ -107,7 +107,7 @@ nav a {
 }
 @media(min-width:640px) {
     nav {
-        text-align: right
+        text-align: right;
     }
 }
 
@@ -117,7 +117,7 @@ nav a {
     background: #074D9E url(../img/banner.png) center center no-repeat;
     background-size: cover;
     color: #fff;
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 1.5rem;
     text-align: center;
 }
 .banner h2 {
@@ -125,13 +125,25 @@ nav a {
     margin: 0 auto 5rem auto;
     max-width: 500px;
 }
+.banner h3 {
+    letter-spacing: .05rem;
+    margin-bottom: 1.75rem;
+    text-transform: uppercase;
+}
 .banner a {
     color: #fff;
+    display: inline-block;
     font-size: .875rem;
-    font-weight: 700;
     letter-spacing: .05rem;
     margin-right: 1rem;
+    text-align: center;
     text-transform: uppercase;
+}
+.banner span {
+    display: block;
+    margin-top: 1rem;
+    opacity: .75;
+    padding-bottom: 0;
 }
 .banner li {
     margin: 0 .25rem;
@@ -142,6 +154,43 @@ nav a {
     }
 }
 
+/* About */
+
+#about {
+    display: flex;
+}
+.about-cfn {
+    border-right: 1px solid #e7e7e7;
+    flex-grow: 2;
+    margin-right: 80px;
+    padding-right: 80px;
+}
+.mailing-list {
+}
+.mailing-list input[type="text"] {
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 3px 0 rgba(0,0,0,.08);
+    margin-bottom: 20px;
+    min-width: 250px;
+    padding: 10px;
+}
+.e2ma_signup_form_label {
+    font-weight: bold;
+    margin-bottom: .25rem;
+}
+.e2ma_signup_form_label:after {
+    color: #aaa;
+    content: " (Required)";
+    font-size: 95%;
+    font-weight: normal;
+    margin-left: .25rem;
+}
+.e2ma_signup_form_required_asterix,
+.e2ma_signup_form_required_footnote {
+    display: none;
+}
+
 /* Projects */
 
 #projects div {
@@ -150,7 +199,7 @@ nav a {
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
     border-radius: 4px;
     margin-bottom: 25px;
-    padding: 0 20px;
+    padding: 0;
     vertical-align: top;
 }
 @media(min-width: 660px) {
@@ -160,8 +209,19 @@ nav a {
         width: 280px;
     }
 }
+#projects h3 {
+    padding: 0 20px;
+}
 #projects p {
     margin: 0;
+    padding: 0 20px;
+}
+#projects .thumbnail {
+    padding: 0;
+}
+.thumbnail img {
+    border: 0;
+    width: 100%;
 }
 #projects p:last-child {
     border-top: 1px solid #e7e7e7;
@@ -217,7 +277,7 @@ label {
 }
 .form-control {
     border: 1px solid #aaa;
-    border-radius: 1px;
+    border-radius: 2px;
     box-shadow: inset 0 1px 3px 0 rgba(0,0,0,.08);
     margin-bottom: 20px;
     min-width: 300px;
@@ -226,12 +286,16 @@ label {
 textarea {
     width: 500px;
 }
-input[type="submit"] {
+input[type="submit"],
+input[type="reset"] {
     background: #074D9E;
     border: 0;
-    border-radius: 1px;
+    border-radius: 2px;
     color: #fff;
     padding: 15px 40px;
+}
+input[type="reset"] {
+    background: #333;
 }
 .submit-btn {
     display: block;

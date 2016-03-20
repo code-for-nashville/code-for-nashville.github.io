@@ -5,6 +5,7 @@ github: https://github.com/code-for-nashville/hrc-employment-diversity-report
 status: active
 lead: John Staples
 help: "yes"
+thumbnail: ../img/inclucivics.png
 
 ---
 

@@ -4,6 +4,7 @@
         <h2>Projects</h2>
         {% for project in site.projects %}
         <div>
+            <p class="thumbnail"><a href="{{project.website}}"><img src="{{ project.thumbnail }}" alt="{{project.title}}"></a></p>
             <h3><a href="{{project.website}}">{{project.title}}</a></h3>
             <p><b>Project Status:</b> {{project.status}}</p>
             <p><b>Project Lead:</b> {{project.lead}}</p>
