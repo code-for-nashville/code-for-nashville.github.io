@@ -147,7 +147,7 @@ nav a {
     padding-bottom: 0;
 }
 .banner li {
-    margin: 0 .25rem;
+    margin: 0 .25rem 1rem;
 }
 @media(min-width:640px) {
     .banner li {
@@ -231,8 +231,8 @@ nav a {
 /* National Day Of Civic Hacking */
 
 .ndoch {
-    background: #2D147C;
-    background-image: linear-gradient(45deg, #2D147C 0%, #4968B2 100%);
+    background: #339BA3;
+    background-image: linear-gradient(-135deg, #339BA3 0%, #202F96 100%);
     border-radius: 4px;
     color: #fff;
     margin-bottom: 40px;
@@ -264,10 +264,10 @@ nav a {
     text-transform: uppercase;
 }
 .ndoch div:nth-child(2):before {
-    content: "When?";
+    content: "When";
 }
 .ndoch div:nth-child(3):before {
-    content: "Where?";
+    content: "Where";
 }
 .ndoch div:nth-child(3) {
     border-right: 0;
