@@ -122,7 +122,7 @@ nav a {
 }
 .banner h2 {
     line-height: 1.4;
-    margin: 0 auto 5rem auto;
+    margin: 0 auto 2.5rem auto;
     max-width: 500px;
 }
 .banner h3 {
@@ -141,7 +141,8 @@ nav a {
 }
 .banner span {
     display: block;
-    margin-top: 1rem;
+    font-size: 90%;
+    margin-top: .75rem;
     opacity: .75;
     padding-bottom: 0;
 }
@@ -177,6 +178,15 @@ nav a {
         padding-right: 80px;
     }
 }
+
+.new-members {
+    background: rgba(242,187,5,.15);
+    border-bottom: 1px solid rgba(242,187,5,.25);
+    margin: 0;
+    padding: .125rem;
+    text-align: center;
+}
+
 .mailing-list {
     text-align: center;
 }
@@ -216,6 +226,82 @@ nav a {
     color: #222;
     font-family: 'Roboto', sans-serif!important;
     text-align: left!important;
+}
+
+/* National Day Of Civic Hacking */
+
+.ndoch {
+    background: #2D147C;
+    background-image: linear-gradient(45deg, #2D147C 0%, #4968B2 100%);
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+.ndoch h3 {
+    flex: 1 0 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.ndoch div {
+    flex: 1 0 0;
+    line-height: 1.3;
+    padding: 10px 20px;
+    text-shadow: 0 1px rgba(0,0,0,.2);
+}
+.ndoch div:nth-child(2):before,
+.ndoch div:nth-child(3):before {
+    display: block;
+    font-size: .8rem;
+    font-weight: 700;
+    margin-bottom: .25rem;
+    letter-spacing: .05rem;
+    opacity: .5;
+    text-transform: uppercase;
+}
+.ndoch div:nth-child(2):before {
+    content: "When?";
+}
+.ndoch div:nth-child(3):before {
+    content: "Where?";
+}
+.ndoch div:nth-child(3) {
+    border-right: 0;
+}
+.ndoch div:nth-child(4) {
+    border-right: 0;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.ndoch div:nth-child(4) a {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px rgba(0,0,0,.2);
+    color: #333;
+    display: inline-block;
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .035rem;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media(min-width:600px) {
+    .ndoch {
+        display: flex;
+        text-align: left;
+    }
+    .ndoch h3,
+    .ndoch div {
+        border-right: 1px solid rgba(255,255,255,.2);
+        padding: 0 20px;
+    }
 }
 
 /* Projects */
@@ -298,7 +384,7 @@ form {
     max-width: 500px;
 }
 label {
-    font-weight: 600;
+    font-weight: 700;
     display: inline-block;
     width: 70px;
 }
@@ -329,8 +415,16 @@ input[type="reset"] {
     margin: 0 auto;
 }
 #contact li {
-    margin-right: 20px;
+    padding-right: 20px;
     text-transform: capitalize;
+}
+@media(max-width:640px) {
+    #contact li {
+        display: inline-block;
+        margin-bottom: 20px;
+        vertical-align: top;
+        /* width: 100px; */
+    }
 }
 .questions {
     margin: 1rem auto;
