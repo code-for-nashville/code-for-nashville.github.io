@@ -1,22 +1,12 @@
-<section id="team" class="container content-section">
-    <div class="row">
-        <h2 class="text-center">Code For Nashville Team</h2>
-        <div class="team-page">
-    <ul class="member-list">
+<section id="team">
+    <h2>Team</h2>
+    <ul>
         {% for member in site.members %}
-        <li class="col-sm-6 col-xs-6  col-lg-3 columns">
-          <div class="team_member">
-            <div class="info">
-                <a href="http://www.github.com/{{member.github}}" class="member-github-link">
-                    <img src="{{member.img}}" class="member-img" alt=""/>
-                    <h5 class="github-name" data-github="{{member.github}}">{{member.name}}</h5>
-                </a>
-            </div>
-          </div>
+        <li>
+            <h3>{{member.name}}</h3>
+            <p>{{member.title}}</p>
+            <a href="http://www.github.com/{{member.github}}">Github</a>
         </li>
         {% endfor %}
     </ul>
-    </div>
-</div>
-    </div>
 </section>

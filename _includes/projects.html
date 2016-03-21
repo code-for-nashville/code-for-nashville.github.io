@@ -1,20 +1,18 @@
-<section id="projects" class="odd-page">
-    <div class="container content-section">
-        <div class="row">
-            <h2 class="text-center">Projects</h2>
-            <div class="project-list">
-              <ul>
-                {% for project in site.projects %}
-                <li>
-                    <h3><a href="{{project.website}}">{{project.title}} ({{project.status}})</a></h3>
-                    <p><strong>Project Lead: </strong>{{project.lead}}</p>
-                    <p><strong>Help Needed: </strong>{{project.help}}</p>
-                    <p>{{ project.content }}</p>
-                    <p><a id="source-code" href="{{project.github}}">Source Code</a>
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
+<div class="even">
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        {% for project in site.projects %}
+        <div>
+            <p class="thumbnail"><a href="{{project.website}}"><img src="{{ project.thumbnail }}" alt="{{project.title}}"></a></p>
+            <h3><a href="{{project.website}}">{{project.title}}</a></h3>
+            <p><b>Project Status:</b> {{project.status}}</p>
+            <p><b>Project Lead:</b> {{project.lead}}</p>
+            <p class="help"><b>Help Needed:</b> {{project.help}}</p>
+            <p>{{ project.content }}</p>
+            <p><a href="{{project.github}}">Source Code</a>
         </div>
-    </div>
-</section>
+        {% endfor %}
+    </section>
+
+</div>

@@ -5,6 +5,7 @@ github: https://github.com/code-for-nashville/flushots2013
 status: Maintenance 
 lead: Jon Staples & John Chapin (former)  
 help: "yes - looking for new lead to maintan app" 
+thumbnail: ../img/nashvilleflu.png
 
 ---
 

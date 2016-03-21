@@ -5,6 +5,7 @@ github: https://github.com/code-for-nashville/nashviva
 status: active
 lead: Rebecca Cronin-Dixon and Jurnell Cockhren
 help: "yes"
+thumbnail: ../img/nashviva.png
 
 ---
 
