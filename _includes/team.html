@@ -3,7 +3,9 @@
     <ul>
         {% for member in site.members %}
         <li>
-            <h3>{{member.name}}</h3>
+            <a href="http://www.github.com/{{member.github}}" class="member-github-link">
+                <img src="{{member.img}}" class="member-img" alt=""/>
+                <h3 class="github-name" data-github="{{member.github}}">{{member.name}}</h3></a>
             <p>{{member.title}}</p>
             <a href="http://www.github.com/{{member.github}}">Github</a>
         </li>

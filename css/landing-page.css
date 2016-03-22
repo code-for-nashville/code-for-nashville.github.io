@@ -76,6 +76,9 @@ h1 {
     font-size: 1.5rem;
     margin: 0;
 }
+h1 img {
+    height: 50px;
+}
 h1 i {
     color: #4F4F4F;
     font-family: 'Libre Baskerville', serif;
@@ -359,6 +362,10 @@ nav a {
 }
 #team h3 + p {
     margin-top: .25rem;
+}
+.member-img {
+    border-radius: 2px;
+    height: 100px;
 }
 @media(min-width:640px) {
     #team li {
