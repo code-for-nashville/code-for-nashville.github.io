@@ -15,8 +15,21 @@
             </ul>
         </nav>
     </section>
+
     <div class="banner">
+        <h2> {{ site["newMembersTitle"] }} </h2>
+        <h3>Join Us:</h3>
+        <ul>
+            {% for social in site.social %}
+                {% if social.header == true %}
+                <li>
+                    <a href="{{ social.url }}"><img src="/img/{{ social.title }}.svg" alt=""><span>{{ social.title }}</span></a>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
     </div>
+
             {{content}}
             {% include footer.html %}
             {% include js.html %}
