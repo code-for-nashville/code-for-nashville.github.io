@@ -15,7 +15,7 @@ body {
 
 a {
     color: #074D9E;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
     a:hover {
         text-decoration: underline;
@@ -24,6 +24,7 @@ a {
 p {
     color: #4F4F4F;
     line-height: 1.75;
+    font-size: 18px;
 }
 
 section {
