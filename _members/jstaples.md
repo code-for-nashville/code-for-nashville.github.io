@@ -1,5 +1,5 @@
 ---
 name: 'Jon Staples'
-title: 'Captain/Community Organizer'
+title: 'Co-organizer'
 github: 'neolytics'
 ---

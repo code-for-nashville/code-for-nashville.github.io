@@ -1,5 +1,5 @@
 ---
 name: 'Rebecca Cronin-Dixon'
-title: 'Captain/Webmaster'
+title: 'Co-organizer'
 github: 'beck410'
 ---

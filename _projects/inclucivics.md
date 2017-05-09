@@ -1,12 +1,12 @@
 ---
-title: The Nashville Transparency Project - IncluCivics
-website: https://github.com/code-for-nashville/hrc-employment-diversity-report
+title: IncluCivics
+website: http://www.codefornashville.org/inclucivics
 github: https://github.com/code-for-nashville/hrc-employment-diversity-report
 status: active
-lead: John Staples
+lead: Max Shenfield
 help: "yes"
 thumbnail: ../img/inclucivics.png
 
 ---
 
-INCLUVICS is a data visualization app done in partnership with the Human Relations Commission. The goal is to provide transparency into employee demographics at Nashville's Metro Government'
+IncluCivics is a data visualization app completed in partnership with the Metro Human Relations Commission. It provides analysis of employee demographics in over 50 Nashville's Metro Government departments.
