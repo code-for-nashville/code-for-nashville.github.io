@@ -1,5 +1,5 @@
 ---
 name: 'Max Shenfield'
-title: 'Co-organizer'
+title: 'Technical Lead'
 github: 'mshenfield'
 ---
