@@ -159,6 +159,28 @@ nav a {
     }
 }
 
+/* Hackathon Banner */
+.banner.hack-a-thon {
+    color: #074D9E;
+    background: rgba(242,187,5,.15) url(https://nashville.civichack.us/img/capitol.png) center center no-repeat;
+}
+.banner.hack-a-thon a {
+    text-decoration: none;
+}
+
+.register-button {
+    background: #074D9E;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    padding: 15px 40px;
+    width: 150px;
+}
+
+.dark {
+    background: #333 !important;
+}
+
 /* About */
 
 #about {
