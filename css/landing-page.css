@@ -374,6 +374,17 @@ nav a {
     }
 }
 
+/* Display inline adds the ▼ back in and display the header on the same line */
+#team details > summary {
+  display: list-item;
+}
+#team details > summary:hover {
+  cursor: pointer;
+}
+#emeritus-header {
+  display: inline;
+}
+/**/
 
 footer {
     text-align: center;

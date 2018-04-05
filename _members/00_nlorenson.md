@@ -1,5 +1,5 @@
 ---
 name: 'Nick Lorenson'
-title: 'Organizer'
+title: 'Brigade Captain'
 github: 'enlore'
 ---
