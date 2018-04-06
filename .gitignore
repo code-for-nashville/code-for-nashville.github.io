@@ -1,5 +1,7 @@
 _site
+.bundle/
 .sass-cache/
 bower_components
+vendor/
 NERD_tree_1
 Gemfile.lock

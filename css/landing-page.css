@@ -349,6 +349,10 @@ nav a {
 #projects .help {
     margin-bottom: 1rem;
 }
+#projects .deprecated {
+  /* A light yellow */
+  background-color: rgba(255, 255, 0, .1)
+}
 
 /* Team */
 
@@ -374,6 +378,17 @@ nav a {
     }
 }
 
+/* Display inline adds the ▼ back in and display the header on the same line */
+#team details > summary {
+  display: list-item;
+}
+#team details > summary:hover {
+  cursor: pointer;
+}
+#emeritus-header {
+  display: inline;
+}
+/**/
 
 footer {
     text-align: center;

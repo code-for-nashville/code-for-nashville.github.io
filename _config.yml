@@ -59,5 +59,6 @@ social:
     header: false
 
 collections:
+  - emeritus
   - projects
   - members
