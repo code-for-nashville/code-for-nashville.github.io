@@ -1,4 +1,3 @@
-
 function addMDExtension(path) {
   let newPath = path
   if (path.slice(path.length  -1) === '/'){
@@ -17,14 +16,14 @@ $(document).ready(function () {
     path = addMDExtension(path)
   }
 
-  $.get('https://raw.githubusercontent.com/code-for-nashville/handbook/master' + path,
-  function (data, status) {
+  $.get(
+    'https://raw.githubusercontent.com/code-for-nashville/handbook/master/' + path,
+    function (data, status) {
       var converter = new showdown.Converter()
+      converter.setFlavor('github');
       var html = converter.makeHtml(data);
-      var defaultOptions = showdown.getDefaultOptions();
-      showdown.setFlavor('github');
       var div = $('#handbook');
       div.html(html)
-    });
-
+    }
+  );
 });
