@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+        <link href="/css/markdown.css" rel="stylesheet">
+    <!-- Masthead -->
+    <section class="masthead">
+        <h1>
+            <a href="{{site.baseurl}}/#{{ page.title}}">
+                <img src="/img/CFNlogo.jpg" alt="code for nashville" />
+            </a>
+        </h1>
+        <nav role="navigation">
+            <ul>
+                {% for page in site.sections %}
+                <li>
+                    <a href="{{site.baseurl}}/#{{ page.title}}">{{ page.title}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </section>
+    <div class="banner">
+        <h2> Code For Nashville Handbook </h2>
+        <ul>
+            <li>
+                <a href="https://github.com/code-for-nashville/code-for-nashville-handbook">
+                    <img src="/img/github.svg" alt="">
+                    <span>github</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="handbook" class="markdown">
+
+    </div>
+    {{content}} {% include footer.html %} {% include js.html %}
+    <!-- Markdown to html converter -->
+    <script src="https://cdn.rawgit.com/showdownjs/showdown/1.8.6/dist/showdown.min.js"></script>
+    <script src="/js/markdown.js"></script>
+</body>
+
+</html>

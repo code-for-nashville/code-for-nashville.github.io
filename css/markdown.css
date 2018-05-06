@@ -1,0 +1,23 @@
+.markdown {
+    margin: 48px;
+}
+.markdown li {
+    display: block;
+    font-size: 1.2rem;
+    padding: 4px;
+}
+
+
+.markdown h1 {
+    font-size: 2.25rem;
+}
+
+.markdown h2 {
+    font-size: 1.5rem;
+}
+
+
+#codefornashvillehandbook {
+    margin-bottom: 28px;
+}
+
