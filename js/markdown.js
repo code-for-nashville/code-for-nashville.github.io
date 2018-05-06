@@ -11,13 +11,13 @@ function addMDExtension(path) {
 $(document).ready(function () {
   let path = window.location.pathname
   if (path.indexOf('handbook') > -1) {
-    path = 'README.md'
+    path = '/README.md'
   } else {
     path = addMDExtension(path)
   }
 
   $.get(
-    'https://raw.githubusercontent.com/code-for-nashville/handbook/master/' + path,
+    'https://raw.githubusercontent.com/code-for-nashville/handbook/master' + path,
     function (data, status) {
       var converter = new showdown.Converter()
       converter.setFlavor('github');
