@@ -374,6 +374,10 @@ nav a {
     }
 }
 
+.github-logo {
+    height: 22px;
+}
+
 /* Display inline adds the ▼ back in and display the header on the same line */
 #team details > summary {
   display: list-item;

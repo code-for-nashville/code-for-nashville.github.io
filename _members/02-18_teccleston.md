@@ -1,5 +1,5 @@
 ---
 name: 'Tim Eccleston'
-title: 'Co-Organizer'
+title: 'Community Outreach and Diversity Chair'
 github: 'combinatorist'
 ---
