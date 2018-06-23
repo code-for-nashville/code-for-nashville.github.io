@@ -1,5 +1,5 @@
 ---
 name: 'Corey Rice'
-title: 'Co-Organizer'
+title: 'Delivery Lead'
 github: 'coreyar'
 ---
