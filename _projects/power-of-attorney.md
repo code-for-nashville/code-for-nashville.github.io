@@ -1,6 +1,6 @@
 ---
 title: Power of Attorney
-website: https://codefornashville.org/power-of-attorney/
+website: http://immigrantpoa.org
 github: https://github.com/code-for-nashville/power-of-attorney
 status: active
 lead: Corey Rice
