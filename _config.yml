@@ -53,10 +53,6 @@ social:
     icon: google-plus
     url: https://groups.google.com/forum/#!forum/code-for-nashville
     header: false
-  - title: contact form
-    icon: envelope-o
-    url: /contact-form
-    header: false
 
 collections:
   - emeritus
