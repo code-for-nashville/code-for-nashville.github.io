@@ -45,14 +45,6 @@ social:
     icon: slack
     url: https://nashville-brigade-slackin.herokuapp.com
     header: true
-  - title: facebook
-    icon: facebook
-    url: https://www.facebook.com/groups/codefornashville/
-    header: false
-  - title: google group
-    icon: google-plus
-    url: https://groups.google.com/forum/#!forum/code-for-nashville
-    header: false
 
 collections:
   - emeritus
