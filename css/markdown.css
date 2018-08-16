@@ -1,23 +1,52 @@
 .markdown {
     margin: 48px;
 }
+
+.markdown li,
+.markdown p,
+.markdown h2 {
+  color: rgb(0, 0, 0);
+}
+
 .markdown li {
     display: block;
     font-size: 1.2rem;
     padding: 4px;
+    padding-bottom: 8px;
+}
+
+.markdown ul ul {
+  padding-left: 16px;
+}
+
+.markdown li ul {
+  padding-top: 8px;
 }
 
 
 .markdown h1 {
     font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 32px;
 }
 
 .markdown h2 {
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
+
+.markdown hr {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 
 #codefornashvillehandbook {
     margin-bottom: 28px;
 }
 
+
+#handbook {
+  margin: 48px auto;
+  max-width: 800px;
+}
