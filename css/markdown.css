@@ -1,11 +1,14 @@
 .markdown {
-    margin: 48px;
-}
+    margin: 48px; }
 
 .markdown li,
 .markdown p,
 .markdown h2 {
   color: rgb(0, 0, 0);
+}
+
+.markdown p {
+  line-height: 1.4;
 }
 
 .markdown li {
@@ -49,4 +52,6 @@
 #handbook {
   margin: 48px auto;
   max-width: 800px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
