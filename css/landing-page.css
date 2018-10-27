@@ -38,7 +38,7 @@ section {
 
 h2 {
     font-size: 2.25rem;
-    font-weight: 100;
+    font-weight: 400;
     margin-top: 0;
 }
 
@@ -163,25 +163,6 @@ nav a {
 
 #about {
 }
-@media(max-width:699px) {
-    .about-cfn {
-        border-bottom: 1px solid #e7e7e7;
-        margin-bottom: 40px;
-        padding-bottom: 40px;
-    }
-}
-@media(min-width:700px) {
-    #about {
-        display: flex;
-        flow-direction: row;
-    }
-    .about-cfn {
-        border-right: 1px solid #e7e7e7;
-        flex-grow: 2;
-        margin-right: 80px;
-        padding-right: 80px;
-    }
-}
 
 .new-members {
     background: rgba(242,187,5,.15);
@@ -189,47 +170,6 @@ nav a {
     margin: 0;
     padding: .125rem;
     text-align: center;
-}
-
-.mailing-list {
-    text-align: center;
-}
-.e2ma_signup_form {
-    display: inline-block;
-    margin: 0 auto;
-    text-align: left
-}
-.mailing-list input[type="text"] {
-    border: 1px solid #aaa;
-    border-radius: 2px;
-    box-shadow: inset 0 1px 3px 0 rgba(0,0,0,.08);
-    margin-bottom: 20px;
-    min-width: 250px;
-    padding: 10px;
-}
-.e2ma_signup_form_label {
-    font-weight: bold;
-    margin-bottom: .25rem;
-}
-.e2ma_signup_form_label:after {
-    color: #aaa;
-    content: " (Required)";
-    font-size: 95%;
-    font-weight: normal;
-    margin-left: .25rem;
-}
-.e2ma_signup_form_required_asterix,
-.e2ma_signup_form_required_footnote {
-    display: none;
-}
-.e2ma_signup_image_container {
-    display: none;
-}
-.e2ma_signup_message div,
-.e2ma_signup_message span {
-    color: #222;
-    font-family: 'Roboto', sans-serif!important;
-    text-align: left!important;
 }
 
 /* National Day Of Civic Hacking */
