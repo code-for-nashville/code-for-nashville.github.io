@@ -1,6 +1,6 @@
 ## Introduction
 
-This repository contains the source for the [Code for Nashville website](http://www.codefornashville.org). The site is hosted on [Github Pages](https://pages.github.com). Change merged to the master branch of this repository are automatically deployed to the live site.
+This repository contains the source for the [Code for Nashville website](http://www.codefornashville.org). The site is hosted on [Github Pages](https://pages.github.com). Changes merged to the master branch of this repository are automatically deployed to the live site.
 
 ## Contributing
 
