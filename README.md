@@ -2,6 +2,22 @@
 
 This repository contains the source for the [Code for Nashville website](http://www.codefornashville.org). The site is hosted on [Github Pages](https://pages.github.com). Changes merged to the master branch of this repository are automatically deployed to the live site.
 
+## Prerequisites
+- [Ruby] (programming language)
+- [Gem] (ruby's built-in package manager)
+- [Bundler] (a dependency tracker for gems)
+- [Homebrew] (optional, see below)
+- [rbenv] (optional, see below)
+
+Make sure you have ruby installed.
+If ruby comes with your system, you may want to do a clean install.
+For example, if you use MacOs, you should probably install [brew][Homebrew] and run
+```
+brew install rbenv
+rbenv install 2.5.3 # or latest version of ruby
+```
+[Homebrew] is a MacOS package manager that gives you [rbenv], which lets you do a clean install of [Ruby] (and [Gem]).
+
 ## Contributing
 
 The website is generated with Jekyll, so to contribute you'll need to have that [installed](http://jekyllrb.com/docs/installation/).
@@ -28,3 +44,9 @@ The process is
 1. Wait for someone else to review your code
 1. Once it gets a thumbs-up, merge your branch
 1. Check the [site](http://www.codefornashville.org) and see your changes
+
+[Ruby]: https://www.ruby-lang.org/en/
+[Gem]: https://rubygems.org/
+[Bundler]: https://bundler.io/
+[Homebrew]: https://brew.sh/
+[rbenv]: https://github.com/rbenv/rbenv
