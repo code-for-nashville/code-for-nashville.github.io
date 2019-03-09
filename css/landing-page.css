@@ -290,6 +290,22 @@ nav a {
     margin-bottom: 1rem;
 }
 
+/* Donation */
+
+.donation {
+    background-color: midnightblue;
+    padding: 27px 20px;
+}
+
+.donation p {
+    color: #fff;
+
+}
+
+.donation a {
+    color: goldenrod;
+}
+
 /* Team */
 
 #team li {
