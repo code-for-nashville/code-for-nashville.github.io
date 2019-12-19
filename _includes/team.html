@@ -28,7 +28,7 @@
         </summary>
         <div>
             <ul>
-                {% for member in site.emeritus %}
+                {% for member in site.emeritus reversed %}
                 <li>
                     <a href="http://www.github.com/{{member.github}}" class="member-github-link">
                         <img src="{{member.img}}" class="member-img" alt=""/>
