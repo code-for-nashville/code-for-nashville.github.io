@@ -1,5 +1,5 @@
 ---
 name: 'Kaz Shakir'
-title: 'Data Community Liason'
+title: 'Data Community Liaison'
 github: 'kazshak'
 ---
