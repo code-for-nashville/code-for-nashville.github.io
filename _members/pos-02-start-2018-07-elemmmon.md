@@ -1,6 +1,6 @@
 ---
 name: 'Emily Lemmon'
-title: 'Project Lead (Glean)'
+title: 'Glean'
 github: 'Rian501'
 
 ---

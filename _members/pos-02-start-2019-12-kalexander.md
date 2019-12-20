@@ -1,5 +1,5 @@
 ---
 name: 'Kim Alexander'
-title: 'Project Lead (IncluCivics)'
+title: 'IncluCivics'
 github: 'staufferalexander'
 ---

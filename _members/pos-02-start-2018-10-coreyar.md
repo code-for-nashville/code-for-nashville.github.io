@@ -1,5 +1,5 @@
 ---
 name: 'Corey Rice'
-title: 'Project Lead (Power of Attorney)'
+title: 'Power of Attorney'
 github: 'coreyar'
 ---

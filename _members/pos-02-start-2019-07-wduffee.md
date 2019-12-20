@@ -1,5 +1,5 @@
 ---
 name: 'Wesley Duffee-Braun'
-title: 'Project Lead (Clean Slate)'
+title: 'Clean Slate'
 github: 'wduffee'
 ---

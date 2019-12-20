@@ -1,5 +1,5 @@
 ---
 name: 'Don Dixon'
-title: 'Project Lead (Bail Bonds)'
+title: 'Bail Bonds'
 # github: '<unknown>'
 ---
