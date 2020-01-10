@@ -3,7 +3,7 @@
     var memberImages = $('.member-img');
 
     [].forEach.call(members, function(member, index){
-        if($(member).attr('data-github')){
+        if($(member).attr('data-github') && !$(memberImages[index]).attr('src')){
            $.get('https://api.github.com/users/' + $(member).attr('data-github'),function(data){
                var avatarImage = '';
                avatarImage = data.avatar_url;
