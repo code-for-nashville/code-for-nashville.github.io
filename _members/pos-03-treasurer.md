@@ -1,6 +1,6 @@
 ---
 name: 'Open Position'
 title: 'Treasurer'
-apply: 'nick@codefornashville.org'
+apply: 'tim@codefornashville.org'
 img: 'img/account-icon-png-5.jpg'
 ---

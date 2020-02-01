@@ -8,7 +8,7 @@
             {% else %}
             <a href="https://github.com/code-for-nashville/handbook#roles" target="_blank" class="member-github-link">
             {% endif %}
-                <img src="{{member.img}}" class="member-img" alt=""/>
+                <img src="{{member.img}}" class="member-img" alt="{{member.name}}'s headshot"/>
                 <h3 class="github-name" data-github="{{member.github}}">{{member.name}}</h3>
             </a>
             <p>{{{member.title}}</p>
@@ -28,10 +28,10 @@
         </summary>
         <div>
             <ul>
-                {% for member in site.emeritus %}
+                {% for member in site.emeritus reversed %}
                 <li>
                     <a href="http://www.github.com/{{member.github}}" class="member-github-link">
-                        <img src="{{member.img}}" class="member-img" alt=""/>
+                        <img src="{{member.img}}" class="member-img" alt="{{member.name}}'s headshot"/>
                         <h3 class="github-name" data-github="{{member.github}}">{{member.name}}</h3></a>
                     <p>{{member.title}}</p>
                     <a href="http://www.github.com/{{member.github}}"><img class="github-logo" src="img/GitHub-Mark-64px.png" alt="github {{member.github}}"/></a>

@@ -7,7 +7,7 @@
            $.get('https://api.github.com/users/' + $(member).attr('data-github'),function(data){
                var avatarImage = '';
                avatarImage = data.avatar_url;
-               $(memberImages[index]).attr('src', avatarImage);
+               $(memberImages[index]).attr('src', (index, currentValue) => currentValue || avatarImage);
             })
         }
     })

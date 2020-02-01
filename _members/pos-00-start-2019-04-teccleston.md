@@ -1,5 +1,5 @@
 ---
 name: 'Tim Eccleston'
-title: 'Community Engagement and Diversity Lead'
+title: 'Interim Executive Director'
 github: 'combinatorist'
 ---
