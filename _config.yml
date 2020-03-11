@@ -45,6 +45,10 @@ social:
     icon: slack
     url: https://nashville-brigade-slackin.herokuapp.com
     header: true
+  - title: email
+    icon: email
+    url: mailto:tim+website@codefornashville.org
+    header: true
 
 collections:
   - emeritus
