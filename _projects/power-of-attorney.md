@@ -2,9 +2,9 @@
 title: Power of Attorney
 website: http://immigrantpoa.org
 github: https://github.com/code-for-nashville/power-of-attorney
-status: active
+status: maintenance
 lead: Corey Rice
-help: "yes"
+help: "yes (phase 2 form)"
 thumbnail: ../img/power-of-attorney.png
 
 ---
