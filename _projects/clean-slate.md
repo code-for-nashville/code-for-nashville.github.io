@@ -5,7 +5,7 @@ github: https://gitlab.com/code-for-nashville/clean-slate
 status: active
 lead: Vienna Thompkins
 help: "yes"
-thumbnail: ../clean-slate-800px-Kneaded_eraser.jpeg
+thumbnail: ../img/clean-slate-800px-Kneaded_eraser.jpeg
 
 ---
 
