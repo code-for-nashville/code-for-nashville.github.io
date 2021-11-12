@@ -5,7 +5,7 @@ github: https://gitlab.com/code-for-nashville/judicial-report-cards
 status: active
 lead: Vienna Thompkins
 help: "yes"
-thumbnail: ../judical-report-cards-677px-Dikstein_report_card.jpg
+thumbnail: ../img/judical-report-cards-677px-Dikstein_report_card.jpg
 
 ---
 
