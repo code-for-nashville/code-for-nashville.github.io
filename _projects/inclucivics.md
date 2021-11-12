@@ -2,9 +2,9 @@
 title: IncluCivics
 website: http://www.codefornashville.org/inclucivics
 github: https://github.com/code-for-nashville/hrc-employment-diversity-report
-status: active
-lead: none
-help: "yes"
+status: maintenance
+lead: Tim Eccleston
+help: "yes (quarterly data uploads & automation)"
 thumbnail: ../img/inclucivics.png
 
 ---
