@@ -1,6 +1,6 @@
 ---
-name: 'Vienna Thompkins'
+name: 'V Thompkins'
 title: 'Co-Organizer'
-github: 'viennav'
+github: 'vvthompkins'
 img: 'img/vthompkins_headshot_23401048.jpeg'
 ---
